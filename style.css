@@ -36,7 +36,7 @@
   width: 350px;
   height: 50px;
   border-radius: 25px;
-  border: 1px solid #555;
+  border: 1px solid #555 ;
   left: 50px;
   margin-top: 20px;
   display: flex;
@@ -44,11 +44,11 @@
   justify-content: center;
 }
 
-.with-apple {
+.with-facebook {
   width: 350px;
   height: 50px;
   border-radius: 25px;
-  border: 1px solid #555;
+  border: 1px solid #555 ;
   left: 50px;
   margin-top: 17px;
   display: flex;
@@ -68,13 +68,13 @@
   color: #000;
 }
 
-.with-apple img {
+.with-facebook img {
   margin-right: 12px;
   margin-left: 0px;
   width: 25px;
 }
 
-.with-apple p {
+.with-facebook p {
   font-weight: 600;
   color: #000;
 }
@@ -97,7 +97,7 @@ hr {
 }
 
 .more-options {
-  width: 350px;
+  width: 400px;
   height: 50px;
   border-radius: 5px;
   margin-top: 5px;
@@ -110,10 +110,9 @@ hr {
   width: 350px;
   height: 50px;
   padding-left: 15px;
-  border: 0;
+  box-sizing: border-box;
   border: 1px solid #555;
   border-radius: 25px;
-  display: block;
 }
 
 .more-options input::placeholder {
@@ -125,34 +124,18 @@ hr {
   outline: none;
 }
 
-.more-options2 {
-  width: 350px;
-  height: 50px;
-  border-radius: 5px;
-  margin-top: 5px;
-  display: flex;
+.forgot {
   margin-top: 20px;
+  justify-content: left;
+  text-align: left;
+  margin-top: 17px;
+  margin-left: 15px;
 }
 
-.more-options2 input {
-  margin: 11px;
-  margin-left: 0px;
-  width: 350px;
-  height: 50px;
-  padding-left: 15px;
-  border: 0;
-  border: 1px solid #555;
-  border-radius: 25px;
-  display: block;
-}
-
-.more-options2 input::placeholder {
+.forgot a {
   font-size: 15px;
-  color: #444;
-}
-
-.more-options2 input:focus {
-  outline: none;
+  text-decoration: none;
+  color: #3C76EB;
 }
 
 .next {
@@ -161,7 +144,7 @@ hr {
   background: #3C76EB;
   border-radius: 25px;
   padding-top: 12px;
-  margin-top: 30px;
+  margin-top: 20px;
   transition: all 0.3s;
   cursor: pointer;
 }
@@ -180,25 +163,13 @@ hr {
 }
 
 .description {
+  padding-top: 40px;
+  padding-bottom: 50px;
   display: flex;
 }
 
 #account {
   margin-right: 8px;
-}
-
-#caption span {
-  margin: 0;
-  padding: 0;
-}
-
-.description {
-  padding-top: 40px;
-  padding-bottom: 50px;
-}
-
-#sign {
-  color: #3C76EB;
 }
 
 #sign-up {
