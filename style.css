@@ -36,7 +36,7 @@
   width: 350px;
   height: 50px;
   border-radius: 25px;
-  border: 1px solid #555 ;
+  border: 1px solid #555;
   left: 50px;
   margin-top: 20px;
   display: flex;
@@ -48,7 +48,7 @@
   width: 350px;
   height: 50px;
   border-radius: 25px;
-  border: 1px solid #555 ;
+  border: 1px solid #555;
   left: 50px;
   margin-top: 17px;
   display: flex;
@@ -97,7 +97,7 @@ hr {
 }
 
 .more-options {
-  width: 400px;
+  width: 350px;
   height: 50px;
   border-radius: 5px;
   margin-top: 5px;
@@ -110,9 +110,10 @@ hr {
   width: 350px;
   height: 50px;
   padding-left: 15px;
-  box-sizing: border-box;
+  border: 0;
   border: 1px solid #555;
   border-radius: 25px;
+  display: block;
 }
 
 .more-options input::placeholder {
@@ -124,18 +125,34 @@ hr {
   outline: none;
 }
 
-.forgot {
+.more-options2 {
+  width: 350px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 5px;
+  display: flex;
   margin-top: 20px;
-  justify-content: left;
-  text-align: left;
-  margin-top: 17px;
-  margin-left: 15px;
 }
 
-.forgot a {
+.more-options2 input {
+  margin: 11px;
+  margin-left: 0px;
+  width: 350px;
+  height: 50px;
+  padding-left: 15px;
+  border: 0;
+  border: 1px solid #555;
+  border-radius: 25px;
+  display: block;
+}
+
+.more-options2 input::placeholder {
   font-size: 15px;
-  text-decoration: none;
-  color: #3C76EB;
+  color: #444;
+}
+
+.more-options2 input:focus {
+  outline: none;
 }
 
 .next {
@@ -144,7 +161,7 @@ hr {
   background: #3C76EB;
   border-radius: 25px;
   padding-top: 12px;
-  margin-top: 20px;
+  margin-top: 30px;
   transition: all 0.3s;
   cursor: pointer;
 }
@@ -163,13 +180,25 @@ hr {
 }
 
 .description {
-  padding-top: 40px;
-  padding-bottom: 50px;
   display: flex;
 }
 
 #account {
   margin-right: 8px;
+}
+
+#caption span {
+  margin: 0;
+  padding: 0;
+}
+
+.description {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+#sign {
+  color: #3C76EB;
 }
 
 #sign-up {
